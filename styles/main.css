@@ -182,6 +182,10 @@ footer{
   display: flex;
   flex-direction: row;
 }
+.row2{
+  display: flex;
+  flex-direction: row;
+}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
