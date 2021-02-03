@@ -210,6 +210,14 @@ article h2{
 button{
   cursor: pointer;
 }
+.payment-a a{
+  text-decoration: none;
+  color: #000000;
+}
+.side-by-side{
+  display: flex;
+  justify-content: space-between;
+}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -223,6 +231,12 @@ button{
   }
   .hidden-on-sm{
     display: none;
+  }
+}
+@media (max-width: 587px) {
+  .side-by-side{
+    display: block;
+    text-align: center;
   }
 }
 
