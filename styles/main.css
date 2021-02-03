@@ -195,6 +195,10 @@ footer{
   border-left: none;
   text-align: center;
 }
+.emphasize a{
+  text-decoration: none;
+  color: #000000;
+}
 article h2{
   text-shadow:
   0 0 0 #FCFCFC,
