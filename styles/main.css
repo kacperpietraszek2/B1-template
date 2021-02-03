@@ -195,6 +195,14 @@ footer{
   border-left: none;
   text-align: center;
 }
+article h2{
+  text-shadow:
+  0 0 0 #FCFCFC,
+  -1px -1px 0 #FCFCFC,
+  1px -1px 0  #FCFCFC,
+  -1px 1px 0  #FCFCFC,
+  1px 1px 0  #FCFCFC;
+}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
