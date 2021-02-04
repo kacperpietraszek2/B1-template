@@ -218,6 +218,15 @@ button{
   display: flex;
   justify-content: space-between;
 }
+.twee-in-een{
+  display: flex;
+}
+.text-naast-mok{
+  padding-top: 70px;
+}
+.text-naast-mok p, span{
+  margin: 0;
+}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -237,6 +246,11 @@ button{
   .side-by-side{
     display: block;
     text-align: center;
+  }
+}
+@media (max-width: 670px) {
+  .twee-in-een{
+    display: block;
   }
 }
 
